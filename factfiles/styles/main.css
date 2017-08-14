@@ -1,0 +1,84 @@
+/* Main CSS */
+
+/* Fonts:
+ * Open Sans: Steve Matteson (https://fonts.google.com/specimen/Open+Sans)
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body
+{
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+#container
+{
+  width: 60%;
+  margin: auto;
+}
+
+#heading {
+  font-family: "Coming Soon", cursive;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  padding: 1em 0;
+}
+
+#heading h1
+{
+  color: #d8a14a;
+  font-size: 40px;
+}
+
+#heading h2
+{
+  color: #6e990a;
+}
+
+#main {
+  padding: 1em 0;
+  border-bottom: 1px solid #bbb;
+}
+#abstract {
+  font-size: 17px;
+  margin: 0 3em;
+}
+
+#footer {
+  text-align: center;
+  
+  padding: 1em 0;
+}
+
+/* Use "image-container" class for images */
+.image-container {
+  width: 70%;
+  margin: auto;
+}
+
+.image-container img
+{
+  width: 100%;
+}
+
+
+
+#logo
+{
+  width: 30%;
+  margin: auto;
+}
+
+#logo img
+{
+  width: 100%;
+}
+
+#cc-license {
+  font-size: small;
+  margin-top: 2em;
+}
+
+#thai-content {
+  margin-top: 4em;
+}
