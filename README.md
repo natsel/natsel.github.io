@@ -6,4 +6,4 @@ All content is licensed under the [Creative Commons BY-ND 4.0](https://creativec
 Please just use UTF-8. That's all I need to say.
 
 # Webmaster
-The lead webmaster is [Linus Björk](https://lbjork64.github.io).
+The lead webmaster is [Linus Björk](https://lbjork64.github.io/#contact-details).
