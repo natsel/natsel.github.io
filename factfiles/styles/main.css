@@ -52,7 +52,7 @@ body
 
 /* Use "image-container" class for images */
 .image-container {
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
@@ -65,7 +65,7 @@ body
 
 #logo
 {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
@@ -81,4 +81,8 @@ body
 
 #thai-content {
   margin-top: 4em;
+}
+
+li strong {
+  color: #d8a14a;
 }
