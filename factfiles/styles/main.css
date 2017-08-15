@@ -21,7 +21,7 @@ body
   font-family: "Coming Soon", cursive;
   text-align: center;
   border-bottom: 1px solid #bbb;
-  padding: 1em 0;
+  padding: 0;
 }
 
 #heading h1
@@ -67,6 +67,9 @@ body
 {
   width: 40%;
   margin: auto;
+  
+  position: relative;
+  top: 7px;
 }
 
 #logo img
