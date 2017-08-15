@@ -18,21 +18,8 @@ body
 }
 
 #heading {
-  font-family: "Coming Soon", cursive;
-  text-align: center;
   border-bottom: 1px solid #bbb;
   padding: 0;
-}
-
-#heading h1
-{
-  color: #d8a14a;
-  font-size: 40px;
-}
-
-#heading h2
-{
-  color: #6e990a;
 }
 
 #main {
@@ -51,18 +38,38 @@ body
   padding: 1em 0;
 }
 
-/* Use "image-container" class for images */
-.image-container {
+/* SECTION "banner-container"
+ * Use "banner-container" class for images */
+.banner-container {
   width: 100%;
   margin: auto;
 }
 
-.image-container img
+.banner-container img
 {
   width: 100%;
 }
+/* END SECTION "banner-container" */
 
+#character-footnotes
+{
+  width: 100%;
+  
+  font-size: small;
+  text-align: right;
+}
 
+.plus-list
+{
+  list-style: "+ ";
+  margin: 0;
+}
+
+.minus-list
+{
+  list-style: "- ";
+  margin: 0;
+}
 
 #logo
 {
@@ -85,8 +92,4 @@ body
 
 #thai-content {
   margin-top: 4em;
-}
-
-li strong {
-  color: #d8a14a;
 }
