@@ -1,0 +1,49 @@
+/* CSS rules specific to homecorn.html */
+
+.homecorn-yellow
+{
+  color: rgb(210, 226, 0);
+  transition: color 0.5s;
+}
+
+.homecorn-yellow:hover
+{
+  color: rgb(180, 200, 0);
+}
+
+.proper-noun
+{
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+/* SECTION txt-img-vsplit */
+.txt-img-vsplit
+{
+  width: 100%;
+}
+
+.txt-vsplit
+{
+  width: 80%;
+  float: left;
+  padding-right: 1em;
+}
+
+.img-vsplit
+{
+  width: 20%;
+  float: right;
+}
+
+.img-vsplit img
+{
+  width: 100%;
+}
+/* END SECTION txt-img-vsplit */
+
+/* Dedicated to all the people who broke me 🖕🖕 ... */
+.fuckoff
+{
+  clear: both;
+}
