@@ -51,7 +51,7 @@ body
 }
 /* END SECTION "banner-container" */
 
-#character-footnotes
+.character-footnotes
 {
   width: 100%;
   
@@ -90,6 +90,11 @@ body
   margin-top: 2em;
 }
 
-#thai-content {
+.thai-content {
   margin-top: 4em;
+}
+
+*
+{
+  box-sizing: border-box;
 }
