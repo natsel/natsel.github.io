@@ -25,15 +25,19 @@
 
 .txt-vsplit
 {
-  width: 80%;
+  width: 50%;
   float: left;
+  
   padding-right: 1em;
+  margin-bottom: 2em;
 }
 
 .img-vsplit
 {
-  width: 20%;
+  width: 50%;
   float: right;
+  
+  padding-left: 1em;
 }
 
 .img-vsplit img
@@ -41,9 +45,3 @@
   width: 100%;
 }
 /* END SECTION txt-img-vsplit */
-
-/* Dedicated to all the people who broke me 🖕🖕 ... */
-.fuckoff
-{
-  clear: both;
-}
