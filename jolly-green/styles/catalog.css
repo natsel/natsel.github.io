@@ -1,41 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans");
-#container {
-  margin: 0 5%; }
-  #container #frontmatter {
-    text-align: center;
-    font-family: "Coming Soon", cursive;
-    padding-bottom: 1.5em;
-    margin-bottom: 2em;
-    border-bottom: 1px solid #aaa; }
-    #container #frontmatter img {
-      width: 50%; }
-    #container #frontmatter #front-text {
-      margin-top: 1em; }
-      #container #frontmatter #front-text #opening-hours {
-        margin-top: 0.5em; }
-      #container #frontmatter #front-text h1 {
-        text-transform: uppercase; }
-  #container #mainmatter {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 1em; }
-    #container #mainmatter img {
-      display: block;
-      width: 100%;
-      margin-bottom: 10vw; }
-  #container #backmatter {
-    text-align: center; }
-    #container #backmatter section {
-      margin-bottom: 1.5em; }
-      #container #backmatter section h2 {
-        margin-bottom: 0.3em;
-        font-family: "Coming Soon", cursive; }
-      #container #backmatter section a {
-        color: #557329;
-        text-decoration: none; }
-    #container #backmatter #copyright {
-      font-size: small;
-      color: #888; }
-
+@media only screen and (max-width: 1023px) {
+  #container {
+    margin: 0 5%; }
+    #container #frontmatter {
+      text-align: center;
+      padding-bottom: 1.5em;
+      margin-bottom: 2em;
+      border-bottom: 1px solid #aaa; }
+      #container #frontmatter img {
+        width: 50%; }
+      #container #frontmatter #front-text {
+        margin-top: 1em;
+        font-family: "Coming Soon", cursive;
+        font-size: 1.5em; }
+        #container #frontmatter #front-text #opening-hours {
+          margin-top: 0.5em; }
+        #container #frontmatter #front-text h1 {
+          text-transform: uppercase; }
+    #container #mainmatter {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 1em; }
+      #container #mainmatter img {
+        display: block;
+        width: 100%;
+        margin-bottom: 10vw; }
+    #container #backmatter {
+      text-align: center; }
+      #container #backmatter section {
+        margin-bottom: 1.5em;
+        font-size: 2em; }
+        #container #backmatter section h2 {
+          margin-bottom: 0.3em;
+          font-family: "Coming Soon", cursive; }
+        #container #backmatter section a {
+          color: #557329;
+          text-decoration: none; }
+      #container #backmatter #copyright {
+        font-size: small;
+        color: #888; } }
+@media only screen and (min-width: 1024px) {
+  * {
+    display: none; } }
 body {
   font-family: "Open Sans", sans-serif; }
 
