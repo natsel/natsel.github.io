@@ -1,0 +1,5 @@
+# jolly-green/styles/*.map files are unneeded junk that the SCSS preprocessor spews out
+jolly-green/styles/*.map
+
+# jolly-green/styles/scss/.sass-cache/ is a junk directory that the SCSS preprocessor spews out
+jolly-green/styles/scss/.sass-cache/

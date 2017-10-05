@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans');
+
+#container {
+	padding: 0 5%;
+	
+	#frontmatter {
+		text-align: center;
+		font-family: "Coming Soon", cursive;
+		
+		padding-bottom: 1.5em;
+		margin-bottom: 2em;
+		border-bottom: 1px solid #aaa;
+		
+		img {
+				width: 70%;
+		}
+		
+		#front-text {
+			margin-top: 1em;
+			
+			#opening-hours {
+				margin-top: 0.5em;
+			}
+			
+			h1 {
+				text-transform: uppercase;
+			}
+		}
+	}
+	
+	#mainmatter {
+		border-bottom: 1px solid #aaa;
+		margin-bottom: 1em;
+		
+		img {
+			display: block;
+			width: 100%;
+			margin-bottom: 10vw;
+		}
+	}
+	
+	#backmatter {
+		text-align: center;
+		section {
+			margin-bottom: 1.5em;
+			
+			h2 {
+				margin-bottom: 0.3em;
+			}
+			
+			a {
+				color: rgb(85, 115, 41);
+				text-decoration: none;
+			}
+		}
+		
+		#copyright {
+			font-size: small;
+			color: #888;
+		}
+	}
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
