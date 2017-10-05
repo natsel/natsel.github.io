@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans');
 
 #container {
-	padding: 0 5%;
+	margin: 0 5%;
 	
 	#frontmatter {
 		text-align: center;
@@ -12,7 +12,7 @@
 		border-bottom: 1px solid #aaa;
 		
 		img {
-				width: 70%;
+				width: 50%;
 		}
 		
 		#front-text {
@@ -46,6 +46,7 @@
 			
 			h2 {
 				margin-bottom: 0.3em;
+				font-family: "Coming Soon", cursive;
 			}
 			
 			a {

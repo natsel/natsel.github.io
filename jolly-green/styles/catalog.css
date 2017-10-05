@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans");
 #container {
-  padding: 0 5%; }
+  margin: 0 5%; }
   #container #frontmatter {
     text-align: center;
     font-family: "Coming Soon", cursive;
@@ -8,7 +8,7 @@
     margin-bottom: 2em;
     border-bottom: 1px solid #aaa; }
     #container #frontmatter img {
-      width: 70%; }
+      width: 50%; }
     #container #frontmatter #front-text {
       margin-top: 1em; }
       #container #frontmatter #front-text #opening-hours {
@@ -27,7 +27,8 @@
     #container #backmatter section {
       margin-bottom: 1.5em; }
       #container #backmatter section h2 {
-        margin-bottom: 0.3em; }
+        margin-bottom: 0.3em;
+        font-family: "Coming Soon", cursive; }
       #container #backmatter section a {
         color: #557329;
         text-decoration: none; }
